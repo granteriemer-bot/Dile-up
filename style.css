@@ -26,11 +26,7 @@ p{
 .header_logo {
    width: 500px;
    height: auto;
-   padding: 10px;
-   margin-left: auto;
-   margin-right: auto;
-   left: 600px;
-   top: 20px;
+   justify-content: center;
 }
 
 
