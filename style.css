@@ -25,9 +25,10 @@ p{
 }
 .header_logo {
     display: block;
-    width: min(500px, 100%);
+    width: 120px;
     height: auto;
     margin-inline: auto;
+    left: 0;
 }
 
 
