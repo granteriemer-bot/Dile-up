@@ -9,12 +9,8 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 }
-h1 {
+h2 {
     color: var(--h);
-    font-size: 120px;
-    padding: 20px;
-    text-align: center;
-
 }
 svg {
     position: left top;
