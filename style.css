@@ -1,7 +1,9 @@
 :root {
+    /* Color Variables */
     --h: #242424;
     --p: #525252;
     --st: #707070;
+    /*Artwork shortcuts*/
     --header: url('full_logo.jpg');
     --logo: url('logo_image.jpg');
 }
@@ -9,13 +11,18 @@ h2 {
     color: var(--h);
     font-family: sans-serif;
 }
-image {
-    range: var(--header);
-    position: center top;
-    
+img {
+ range: var(--header);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-image {
+img {
     range: var(--logo);
-    position: left top;
+    position: absolute;
+    width: 19.8px;
+    height: 30.0px;
+    left: 10px;
+    top: 10px;
 }
 
