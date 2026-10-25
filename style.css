@@ -18,6 +18,8 @@ h2 {
  .header_logo {
    width: 500px;
    height: auto;
+   left: 50%;
+   top: 20px;
 }
 
 
