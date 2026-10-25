@@ -4,24 +4,24 @@
     --p: #525252;
     --st: #707070;
     /*Artwork shortcuts*/
-    --header: url('full_logo.jpg');
-    --logo: url('logo_image.jpg');
+    /*logo_image.jpg = logo
+    full_logo.jpg = header_logo */
 }
 h2 {
     color: var(--h);
     font-family: sans-serif;
 }
-img {
- range: var(--header);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ .header_logo {
+   width: 500px;
+   height: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
-img {
-    range: var(--logo);
+.logo {
     position: absolute;
-    width: 19.8px;
-    height: 30.0px;
+    width: 100px;
+    height: 150px;
     left: 10px;
     top: 10px;
 }
