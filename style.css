@@ -17,10 +17,9 @@ h2 {
 }
  .header_logo {
    width: 500px;
-   height: 200px;
+   height: auto;
    display: block;
-   margin-left: auto;
-   margin-right: auto;
+   position: center;
 }
 
 
