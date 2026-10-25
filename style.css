@@ -10,9 +10,10 @@ background-size: cover;
 background-position: center;
 }
 h1 {
-    size: 120px;
+    color: var(--h);
+    font-size: 120px;
     padding: 20px;
-    position: center top;
+    text-align: center;
 
 }
 svg {
