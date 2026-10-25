@@ -24,9 +24,10 @@ p{
     margin-right: auto;
 }
 .header_logo {
-   width: 500px;
-   height: auto;
-   justify-content: center;
+    display: block;
+    width: min(500px, 100%);
+    height: auto;
+    margin-inline: auto;
 }
 
 
