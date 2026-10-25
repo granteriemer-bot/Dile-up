@@ -7,7 +7,7 @@
     /*logo_image.jpg = logo
     full_logo.jpg = header_logo */
 }
-h2 {
+h2{
     color: var(--h);
     font-family: sans-serif;
     width: 300px;
@@ -15,9 +15,20 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
- .header_logo {
+p{
+    color: var(--p);
+    font-family: sans-serif;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_logo {
    width: 500px;
    height: auto;
+   padding: 10px;
+   margin-left: auto;
+   margin-right: auto;
    left: 50%;
    top: 20px;
 }
