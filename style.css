@@ -12,12 +12,23 @@ a {
     color: var(--h);
     Font-size: 20px;
 }
-.product{
+.product1{
     color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
     padding: 10px;
-    height: 100px;
+}
+.product2{
+    color: var(--st);
+    font-family: sans-serif;
+    border: 8px solid var(--st);
+    padding: 10px;
+}
+.product3{
+    color: var(--st);
+    font-family: sans-serif;
+    border: 8px solid var(--st);
+    padding: 10px;
 }
 h2{
     color: var(--h);
