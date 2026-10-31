@@ -12,6 +12,13 @@ a {
     color: var(--h);
     Font-size: 20px;
 }
+.product{
+    color: var(--st);
+    font-family: sans-serif;
+    border: 8px solid var(--st);
+    padding: 10px;
+    height: 100px;
+}
 h2{
     color: var(--h);
     font-family: sans-serif;
