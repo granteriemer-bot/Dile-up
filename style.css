@@ -12,19 +12,25 @@ a {
     color: var(--h);
     Font-size: 20px;
 }
-.product1{
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#product1{
     color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
     padding: 10px;
 }
-.product2{
-    color: var(--st);
+#product2{
+     color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
     padding: 10px;
 }
-.product3{
+#product3{
     color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
