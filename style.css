@@ -19,18 +19,21 @@ a {
     gap: 20px;
 }
 #product1{
+    flex-direction: column;
     color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
     padding: 10px;
 }
 #product2{
-     color: var(--st);
+    flex-direction: column;
+    color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
     padding: 10px;
 }
 #product3{
+    flex-direction: column;
     color: var(--st);
     font-family: sans-serif;
     border: 8px solid var(--st);
