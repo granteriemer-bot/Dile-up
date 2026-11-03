@@ -14,30 +14,11 @@ a {
 }
 .flex-container {
     display: flex;
-    justify-content: center;
+    align-content: center;
     align-items: center;
-    gap: 20px;
-}
-#product1{
-    flex-direction: column;
-    color: var(--st);
-    font-family: sans-serif;
-    border: 8px solid var(--st);
-    padding: 10px;
-}
-#product2{
-    flex-direction: column;
-    color: var(--st);
-    font-family: sans-serif;
-    border: 8px solid var(--st);
-    padding: 10px;
-}
-#product3{
-    flex-direction: column;
-    color: var(--st);
-    font-family: sans-serif;
-    border: 8px solid var(--st);
-    padding: 10px;
+    justify-content: space-evenly;
+    align-items: stretch;
+    
 }
 h2{
     color: var(--h);
