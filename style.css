@@ -14,11 +14,7 @@ a {
 }
 .flex-container {
     display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    align-items: stretch;
-    
+    justify-content: center;
 }
 h2{
     color: var(--h);
