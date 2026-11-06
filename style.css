@@ -14,7 +14,11 @@ a {
 }
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+}
+.product1{
+    margin:auto;
 }
 h2{
     color: var(--h);
