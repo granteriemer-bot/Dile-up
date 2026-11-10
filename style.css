@@ -14,12 +14,31 @@ a {
 }
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    
+}
+.product1 {
+    width: 45%;
+    height: auto;
+}
+.product2 {
+    width: 45%;
+    height: auto;
+}
+.product3 {
+    width: 45%;
+    height: auto;
+}
+.product4 {
+    width: 45%;
+    height: auto;
+}
+.product5 {
+    width: 45%;
+    height: auto;
+}
 
-}
-.product1{
-    margin:auto;
-}
 h2{
     color: var(--h);
     font-family: sans-serif;
